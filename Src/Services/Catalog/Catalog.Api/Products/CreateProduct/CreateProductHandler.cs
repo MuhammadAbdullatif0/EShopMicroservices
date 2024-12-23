@@ -1,6 +1,5 @@
 ﻿using BuildingBlocks.CQRS;
 using Catalog.Api.Models;
-using MediatR;
 
 namespace Catalog.Api.Products.CreateProduct;
 public record CreateProductCommand(

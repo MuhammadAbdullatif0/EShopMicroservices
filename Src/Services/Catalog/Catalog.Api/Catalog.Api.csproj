@@ -8,6 +8,7 @@
     <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Carter" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="9.0.0" />
   </ItemGroup>
   <ItemGroup>
