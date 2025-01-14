@@ -1,6 +1,6 @@
-﻿public class ProductNotFoundException : Exception
+﻿public class ProductNotFoundException : NotFoundException
 {
-    public ProductNotFoundException(Guid productId) : base($"Product with Id {productId} not found")
+    public ProductNotFoundException(Guid productId) : base("Product" , productId)
     {
     }
     public ProductNotFoundException(string Category) : base($"Product with Category {Category} not found")
