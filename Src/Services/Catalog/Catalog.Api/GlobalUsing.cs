@@ -5,3 +5,7 @@ global using Marten;
 global using Carter;
 global using Mapster;
 global using MediatR;
+global using BuildingBlocks.Behaviours;
+global using Catalog.Api.Data;
+global using Microsoft.AspNetCore.Diagnostics;
+global using Microsoft.AspNetCore.Mvc;
